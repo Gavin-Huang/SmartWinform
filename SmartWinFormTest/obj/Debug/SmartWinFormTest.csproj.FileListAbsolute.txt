@@ -1,0 +1,12 @@
+E:\work\SmartWinForm\SmartWinFormTest\bin\Debug\SmartWinFormTest.exe.config
+E:\work\SmartWinForm\SmartWinFormTest\bin\Debug\SmartWinFormTest.exe
+E:\work\SmartWinForm\SmartWinFormTest\bin\Debug\SmartWinFormTest.pdb
+E:\work\SmartWinForm\SmartWinFormTest\bin\Debug\SmartWinForm.dll
+E:\work\SmartWinForm\SmartWinFormTest\bin\Debug\SmartWinForm.pdb
+E:\work\SmartWinForm\SmartWinFormTest\obj\Debug\SmartWinFormTest.csprojResolveAssemblyReference.cache
+E:\work\SmartWinForm\SmartWinFormTest\obj\Debug\SmartWinFormTest.Properties.Resources.resources
+E:\work\SmartWinForm\SmartWinFormTest\obj\Debug\SmartWinFormTest.csproj.GenerateResource.Cache
+E:\work\SmartWinForm\SmartWinFormTest\obj\Debug\SmartWinFormTest.exe
+E:\work\SmartWinForm\SmartWinFormTest\obj\Debug\SmartWinFormTest.pdb
+E:\work\SmartWinForm\SmartWinFormTest\obj\Debug\SmartWinFormTest.SmartWinformDemo_EN.resources
+E:\work\SmartWinForm\SmartWinFormTest\obj\Debug\SmartWinFormTest.SmartWinformDemo_CH.resources

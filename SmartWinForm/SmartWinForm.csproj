@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3A50706-5CAA-4AD1-B094-D04B29CA82B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartWinForm</RootNamespace>
+    <AssemblyName>SmartWinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demo.Designer.cs">
+      <DependentUpon>Demo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\ExceptionLog.cs" />
+    <Compile Include="Tools\PrinftHelper.cs" />
+    <Compile Include="UI\SmartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SmartForm.Designer.cs">
+      <DependentUpon>SmartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SmartControls\IndicatorLight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\SmartControls\IndicatorLight.Designer.cs">
+      <DependentUpon>IndicatorLight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SmartControls\SmartCheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\SmartControls\SmartCheckBox.Designer.cs">
+      <DependentUpon>SmartCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SmartControls\SmartRadioButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\SmartControls\SmartRadioButton.Designer.cs">
+      <DependentUpon>SmartRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SmartControls\SmartListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\SmartControls\SmartListBox.Designer.cs">
+      <DependentUpon>SmartListBox.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\SmartForm.resx">
+      <DependentUpon>SmartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SmartControls\IndicatorLight.resx">
+      <DependentUpon>IndicatorLight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SmartControls\SmartCheckBox.resx">
+      <DependentUpon>SmartCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SmartControls\SmartRadioButton.resx">
+      <DependentUpon>SmartRadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SmartControls\SmartListBox.resx">
+      <DependentUpon>SmartListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Box_Blue_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Box_Green_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Box_Grey_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Box_Orange_256px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Box_Red_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Box_Yellow_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\radiooff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\radiooff32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\radioon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\radioon32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

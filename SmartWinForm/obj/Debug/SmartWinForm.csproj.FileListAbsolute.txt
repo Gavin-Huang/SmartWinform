@@ -1,0 +1,13 @@
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.csprojResolveAssemblyReference.cache
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.Properties.Resources.resources
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.csproj.GenerateResource.Cache
+E:\work\SmartWinForm\SmartWinForm\bin\Debug\SmartWinForm.dll.config
+E:\work\SmartWinForm\SmartWinForm\bin\Debug\SmartWinForm.dll
+E:\work\SmartWinForm\SmartWinForm\bin\Debug\SmartWinForm.pdb
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.dll
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.pdb
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.UI.SmartForm.resources
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.UI.SmartControls.IndicatorLight.resources
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.UI.SmartControls.SmartListBox.resources
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.UI.SmartControls.SmartCheckBox.resources
+E:\work\SmartWinForm\SmartWinForm\obj\Debug\SmartWinForm.UI.SmartControls.SmartRadioButton.resources

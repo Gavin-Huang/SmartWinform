@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWinForm", "SmartWinForm\SmartWinForm.csproj", "{C3A50706-5CAA-4AD1-B094-D04B29CA82B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWinFormTest", "SmartWinFormTest\SmartWinFormTest.csproj", "{1FF1EFF0-D766-4A62-A5D9-C65651198F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A50706-5CAA-4AD1-B094-D04B29CA82B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A50706-5CAA-4AD1-B094-D04B29CA82B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A50706-5CAA-4AD1-B094-D04B29CA82B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A50706-5CAA-4AD1-B094-D04B29CA82B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF1EFF0-D766-4A62-A5D9-C65651198F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF1EFF0-D766-4A62-A5D9-C65651198F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF1EFF0-D766-4A62-A5D9-C65651198F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF1EFF0-D766-4A62-A5D9-C65651198F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
