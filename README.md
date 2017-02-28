@@ -1,0 +1,2 @@
+# SmartWinform
+SmartWinForm是一个智能方便适应触摸屏开发Winform框架。本框架解决了窗体显示，输入法弹窗，checkbox和radiobutton等问题
