@@ -1,4 +1,28 @@
-﻿##SmartWinForm是什么?
+﻿## What is SmartWinForm?
+SmartWinForm is an intelligent and easy to adapt touchscreen development Winform framework. This framework solves the problem of form display, input method pop-up, checkbox and radiobutton
+
+## What are the features of SmartWinForm?
+* Auto`s the long string of SmartListBox
+    * Support loop display. NetBox ListBox does not display long strings
+    * Automatically start the loop and end the loop
+* Four directions parallel display window, do not block the mother window, to adapt to the touch screen development, you can always adjust the background color of all forms and foreground color
+* You can use the method `OpenInputLabTip () to call the system input soft keyboard
+* Use the methods `SmartForm.PublicbackColor` and` SmartForm.PublicforeColor` to make adjustments to foreground and background colors
+* Larger and more beautiful radioButton and checkBox, suitable for touch screen use
+* Automatic error logging: Use the `PrinftHelper.LogException (Exception gh)` method to automatically generate an error log in the specified folder
+* `IndicatorLight` can provide three color status indicators, and a blinking interface can be called
+* More features waiting for development
+
+## have feedback
+In use there are any questions, please give me feedback, you can use the following contact with me
+* Mail (huangwangyi16@163.com)
+
+## About the author
+* Huang Hai Liang
+* Gavin-Huang
+* Beihang Software College Pattern Recognition Laboratory
+
+##SmartWinForm是什么?
 SmartWinForm是一个智能方便适应触摸屏开发Winform框架。本框架解决了窗体显示，输入法弹窗，checkbox和radiobutton等问题
 
 ##SmartWinForm有哪些功能？
@@ -18,7 +42,10 @@ SmartWinForm是一个智能方便适应触摸屏开发Winform框架。本框架�
 * 邮件(huangwangyi16@163.com)
 
 ##关于作者
-黄海亮
-Gavin-Huang
-北航软件学院模式识别实验室
+* 黄海亮
+* Gavin-Huang
+* 北航软件学院模式识别实验室
+
+
+
 
