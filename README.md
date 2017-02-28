@@ -22,6 +22,9 @@ In use there are any questions, please give me feedback, you can use the followi
 * Gavin-Huang
 * Beihang Software College Pattern Recognition Laboratory
 
+
+
+##中文
 ##SmartWinForm是什么?
 SmartWinForm是一个智能方便适应触摸屏开发Winform框架。本框架解决了窗体显示，输入法弹窗，checkbox和radiobutton等问题
 
