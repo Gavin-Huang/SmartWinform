@@ -20,7 +20,7 @@ In use there are any questions, please give me feedback, you can use the followi
 ## About the author
 * Huang Hai Liang
 * Gavin-Huang
-* Beihang Software College Pattern Recognition Laboratory
+* Beihang University,Software College,Pattern Recognition and Image Processing Laboratory
 
 
 
